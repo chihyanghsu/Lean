@@ -422,7 +422,6 @@
     <Compile Include="Indicators\PythonIndicatorNoinheritanceTestsLegacy.cs" />
     <Compile Include="Indicators\PythonIndicatorNoinheritanceTests.cs" />
     <Compile Include="Indicators\PythonIndicatorTests.cs" />
-    <Compile Include="PythonSetup.cs" />
     <Compile Include="Algorithm\Framework\QCAlgorithmFrameworkTests.cs" />
     <Compile Include="Algorithm\Framework\Risk\MaximumDrawdownPercentPerSecurityTests.cs" />
     <Compile Include="Algorithm\Framework\Selection\ManualUniverseSelectionModelTests.cs" />
@@ -658,6 +657,7 @@
     <Compile Include="Messaging\StreamingMessageHandlerTests.cs" />
     <Compile Include="Python\AlgorithmPythonWrapperTests.cs" />
     <Compile Include="Python\MethodOverloadTests.cs" />
+    <Compile Include="Python\PandasConverterTests.BackwardsCompatibility.cs" />
     <Compile Include="Python\PortfolioCustomModelTests.cs" />
     <Compile Include="Python\PythonPackagesTests.cs" />
     <Compile Include="Python\PythonSliceGetByTypeTest.cs" />
